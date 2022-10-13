@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.display,
+button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 40vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.display {
+  width: 40vw;
+  height: 10vh;
+  text-align: right;
+  border: navy 2px solid;
+}
+
+button {
+  width: 10vw;
+  height: 10vh;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(160, 217, 255);
+}
